@@ -1,22 +1,18 @@
-body{
+body {
     margin: 0%;
     padding: 0%;
-    
 }
-main
-{
+
+main {
     display: flex;
-    background: linear-gradient(1000deg,#9c95bb,#98bcd3);
+    background: linear-gradient(1000deg, #9c95bb, #98bcd3);
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     width: 100%;
     height: 100vh;
     margin: 0px;
-
-
 }
 
-form
-{
+form {
     display: flex;
     height: 590px;
     width: 900px;
@@ -25,135 +21,119 @@ form
     position: relative;
     top: 50vh;
     transform: translatey(-50%);
-    
-
-
-
-    
-
-
 }
-#premier
-{
+
+#premier {
     background-color: white;
     width: 40%;
-    padding:5% ;
+    padding: 5%;
     border-bottom-left-radius: 20px;
     border-top-left-radius: 20px;
-  
-
 }
-#premier h1
-{
-    font-size: 1.5em ;
+
+#premier h1 {
+    font-size: 1.5em;
     font-weight: 400;
     color: #7AA8DC;
     padding-top: 1px;
 }
 
-#premier ::placeholder, #premier select 
-{
+#premier ::placeholder,
+#premier select {
     color: grey;
-
 }
-form input,select
-{
-    padding-top:  5px;
-    border:none;
+
+form input,
+select {
+    padding-top: 5px;
+    border: none;
     border-top-style: none;
     border-left-style: none;
     border-right-style: none;
-    border-bottom:1px solid grey ;
+    border-bottom: 1px solid grey;
     background: none;
     padding-bottom: 10px;
 }
-.bob
-{
+
+.bob {
     width: 100%;
 }
-#nana 
-{
+
+#nana {
     width: 40%;
     margin-right: 10%;
-
-
 }
-#nono
-{
+
+#nono {
     width: 46.3%;
-
 }
-#bus
-{
+
+#bus {
     width: 60%;
     margin-right: 5%;
-
-
 }
-#pos
-{
+
+#pos {
     width: 32.5%;
-
 }
-#camp
-{
+
+#camp {
     width: 99%;
 }
-#deuxieme
-{
+
+#deuxieme {
     width: 40%;
     padding: 5%;
-    background:linear-gradient(270deg,#4836cf, #4935D4);
+    background: linear-gradient(270deg, #4836cf, #4935D4);
     border-bottom-right-radius: 20px;
     border-top-right-radius: 20px;
 }
-#deuxieme h1
-{
-    font-size: 1.5em ;
+
+#deuxieme h1 {
+    font-size: 1.5em;
     font-weight: 400;
     color: white;
     padding-top: 1px;
 }
-#deuxieme ::placeholder, #deuxieme select 
-{
-    color: white;
 
-} 
-.paul
-{
-    width: 99%;
-
+#deuxieme ::placeholder,
+#deuxieme select {
+color: white;
 }
-#pays
-{
+
+.paul {
+    width: 99%;
+}
+
+#pays {
     width: 100%
 }
-.cod
-{
+
+.cod {
     width: 25%;
     margin-right: 3%;
 }
-#momo
-{
+
+#momo {
     width: 69.7%;
 }
-#tata
-{
+
+#tata {
     width: 68.7%;
 }
-#bouton
-{
+
+#bouton {
     color: white;
-    margin-left:30px ;
+    margin-left: 30px;
 }
-a
-{
-    color: white; 
+
+a {
+    color: white;
 }
 
 
-button
-{   margin-top: 40px;
+button {
+    margin-top: 40px;
     border-radius: 40px;
     width: 150px;
     height: 50px;
@@ -161,31 +141,28 @@ button
     font-weight: bolder;
     cursor: pointer;
 }
-#code, #cod
-{
+
+#code,
+#cod {
     width: 30%;
 }
 
-a
-{
-    color: white; 
+a {
+    color: white;
     font-weight: bold;
 }
 
-.option
-{
+.option {
     position: relative;
 }
 
-.option label
-{
+.option label {
     cursor: pointer;
     margin-left: 15px;
-    font-size: 13px ;
+    font-size: 13px;
 }
 
-.option label::before
-{
+.option label::before {
     content: "";
     position: absolute;
     left: 7px;
@@ -197,28 +174,24 @@ a
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.8);
 }
 
-.option label::after
-{
+.option label::after {
     content: "";
-    position:absolute;
-    left:3%;
+    position: absolute;
+    left: 3%;
     bottom: 27%;
     width: 7px;
     height: 7px;
     border: 1px solid white;
     background-color: white;
-    border-radius: 50%; 
+    border-radius: 50%;
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.8);
     opacity: 0;
     transition: opacity 0.4s;
 }
 
-.option input 
-{
+.option input {
     display: none;
 }
-
-.option input:checked ~ label::after
-{
+.option input:checked~label::after {
     opacity: 1;
 }

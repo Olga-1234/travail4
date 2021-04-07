@@ -1,99 +1,102 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>formulaire2</title>
-        <meta charset="utf-8" />
-        <link rel="stylesheet" href="style.css" />
 
-    </head>
+<head>
+    <title>formulaire2</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" />
 
-    <body>
-        <main>
-           <form method="POST">
-            
-                   <div id="premier">
-                       <h1 id="grand">General Informmation</h1>
-                       <select  class="bob" id="titre">
-                        <option disabled hidden selected id="tit">Title</option>
-                        <option value="Mr">Mr</option>
-                        <option value="Mrs">Mrs</option>
-                        <option value="Miss">Miss</option>
-                       </select>
-                        <p>
-                            <input type="text" id="nana" placeholder="Frist Name"/>
-                            <input type="text" id="nono" placeholder="Last Name"/>
-               
-                        </p>
-                        <select  class="bob" name="post" id="prof" >
-                            <option disabled hidden selected>Position</option>
-                            <option value="Directeur">Directeur</option>
-                            <option value="Inspecteur">Inspecteur</option>
-                            <option value="Controleur">Controleur</option>
-                        </select>
-                        <p>
-                            <input id="camp" type="text" placeholder="Compagny"/>
-                        </p>
-                        <p>
-                            <input type="text" id="bus" placeholder="Business Arena"/>
-                            <select  id="pos" class="selection">
-                                <option disabled hidden selected>Employees</option>
-                                <option value="Yes">Yes</option>
-                                <option value="No">No</option>
-                            </select>
-                        </p>
+</head>
 
-               </div>
-                   <!--deuxieme parti-->
+<body>
+    <main>
+        <form method="POST">
 
-                    
-                   <div id="deuxieme">
-                    <h1 id="petit">Contact Details  </h1>
-                    <p>
-                        <input class="paul" id="nr" type="text" placeholder="Street + Nr"/>
-                    </p>
-                    <p>
-                        <input class="paul" id="info" type="text" placeholder="Additional Informmation"/>
-                    </p>
-                    <p>
-                        <input  class="cod"  type="number" placeholder="Zip Code"/>
-                        <select id="momo" >
-                            <option disabled hidden selected>Place</option>
-                            <option value="Est">Est</option>
-                            <option value="North">North</option>
-                            <option value="South">South</option>
-                        </select>
-                    </p>
-                    <p>
-                        <select id="pays">
-                            <option  disabled hidden selected>Country</option>
-                            <option value="Congo">Congo</option>
-                            <option value="RSA">RSA</option>
-                            <option value="USA">USA</option>
-                            <option value="UK">UK</option>
-                            <option value="Japon">japon</option>
-                
-                        </select>
-                    </p>
-                    <p  >
-                        <input class="cod" type="number" placeholder="Code +"/> 
-                    
-                        <input id="tata" type="tel" placeholder="Phone Number"/>
-                    
-                     </p>
-                <p >
-                    <input id="mail" class="paul" type="Email" placeholder="Your Email"/>
+            <div id="premier">
+                <h1 id="grand">General Informmation</h1>
+                <select class="bob" id="titre">
+                    <option disabled selected id="tit">Title</option>
+                    <option value="Mr">Mr</option>
+                    <option value="Mrs">Mrs</option>
+                    <option value="Miss">Miss</option>
+                </select>
+                <p>
+                    <input type="text" id="nana" placeholder="Frist Name" />
+                    <input type="text" id="nono" placeholder="Last Name" />
+
                 </p>
-                
-                
-                <p class="option">         
-                <input type="radio" id="check1" checked ><label id="bouton" for="check1">I do accept the <a href="#">Terms and Conditions</a> of your site </label>
+                <select class="bob" name="post" id="prof">
+                    <option disabled hidden selected>Position</option>
+                    <option value="Directeur">Directeur</option>
+                    <option value="Inspecteur">Inspecteur</option>
+                    <option value="Controleur">Controleur</option>
+                </select>
+                <p>
+                    <input id="camp" type="text" placeholder="Compagny" />
                 </p>
-    
-                <button type="submit">Register Badge</button> 
-    
+                <p>
+                    <input type="text" id="bus" placeholder="Business Arena" />
+                    <select id="pos" class="selection">
+                        <option disabled hidden selected>Employees</option>
+                        <option value="Yes">Yes</option>
+                        <option value="No">No</option>
+                    </select>
+                </p>
+
             </div>
-           </form>
-       
-        </main>
-    </body>
+            <!--deuxieme parti-->
+
+
+            <div id="deuxieme">
+                <h1 id="petit">Contact Details </h1>
+                <p>
+                    <input class="paul" id="nr" type="text" placeholder="Street + Nr" />
+                </p>
+                <p>
+                    <input class="paul" id="info" type="text" placeholder="Additional Informmation" />
+                </p>
+                <p>
+                    <input class="cod" type="number" placeholder="Zip Code" />
+                    <select id="momo">
+                        <option disabled hidden selected>Place</option>
+                        <option value="Est">Est</option>
+                        <option value="North">North</option>
+                        <option value="South">South</option>
+                    </select>
+                </p>
+                <p>
+                    <select id="pays">
+                        <option disabled hidden selected>Country</option>
+                        <option value="Congo">Congo</option>
+                        <option value="RSA">RSA</option>
+                        <option value="USA">USA</option>
+                        <option value="UK">UK</option>
+                        <option value="Japon">japon</option>
+
+                    </select>
+                </p>
+                <p>
+                    <input class="cod" type="number" placeholder="Code +" />
+
+                    <input id="tata" type="tel" placeholder="Phone Number" />
+
+                </p>
+                <p>
+                    <input id="mail" class="paul" type="Email" placeholder="Your Email" />
+                </p>
+
+
+                <p class="option">
+                    <input type="radio" id="check1" checked><label id="bouton" for="check1">I do accept the <a
+                            href="#">Terms and Conditions</a> of your site </label>
+                </p>
+
+                <button type="submit">Register Badge</button>
+
+            </div>
+        </form>
+
+    </main>
+</body>
+
 </html>
